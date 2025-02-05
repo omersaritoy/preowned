@@ -1,6 +1,4 @@
 package com.cavcav.controller;
-
-import com.cavcav.domain.*;
 import com.cavcav.exception.*;
 import com.cavcav.model.*;
 import com.cavcav.request.CreateReviewRequest;
@@ -21,7 +19,7 @@ public class ReviewController {
     private final ReviewService reviewService;
     private final UserService userService;
     private final ProductService productService;
-
+    //get
     @GetMapping("/products/{productId}/reviews")
     public ResponseEntity<List<Review>> getReviewsByProductId(
             @PathVariable Long productId) {
