@@ -1,0 +1,11 @@
+package com.cavcav.repository;
+
+
+import com.cavcav.model.Notification;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface NotificationRepository extends JpaRepository<Notification, Long> {
+
+
+
+}
