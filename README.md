@@ -18,4 +18,4 @@ A secure and scalable second-hand marketplace application built with **Spring Bo
 - **Frontend**: React, Axios, React Router, Tailwind CSS / Bootstrap
 - **Database**: PostgreSQL
 - **Authentication**: JWT with refresh tokens
-- **Deployment**: Heroku / Render / Vercel (optional)
+
