@@ -1,21 +1,94 @@
+# PreownedTest - Spring Boot Backend Project
 
-A secure and scalable second-hand marketplace application built with **Spring Boot** and **React**, featuring **JWT-based authentication**, **Stripe payments**, and a dynamic admin dashboard for data analytics and product management.
+PreownedTest is a Spring Boot backend application built using Java 17 and Spring Boot 3.3.1.  
+The project includes:
 
-## 🚀 Features
+- JWT Authentication & Authorization
+- PostgreSQL Database Integration
+- Razorpay Payment Gateway
+- Stripe Payment Gateway
+- Email Service using Gmail SMTP
+- Validation & Security
+- ModelMapper & MapStruct
+- Gemini AI API Integration
 
-- User registration & login with JWT (access + refresh token)
-- Role-based access for sellers and buyers
-- Stripe integration for secure payments
-- Product listing, search, and detailed view
-- Order tracking and personal user dashboard
-- Admin dashboard with sales analytics and product controls
-- Spring Security for backend protection
-- Responsive UI built with React and modern CSS frameworks
+---
 
-## 🧰 Tech Stack
+# Technologies Used
 
-- **Backend**: Spring Boot, Spring Security, JWT, Stripe API
-- **Frontend**: React, Axios, React Router, Tailwind CSS / Bootstrap
-- **Database**: PostgreSQL
-- **Authentication**: JWT with refresh tokens
+- Java 17
+- Spring Boot 3.3.1
+- Spring Security
+- Spring Data JPA
+- PostgreSQL
+- JWT
+- Razorpay
+- Stripe
+- Lombok
+- MapStruct
+- ModelMapper
+- Maven
 
+---
+
+# Project Structure
+
+```bash
+src/main/java
+│
+├── controller
+├── service
+├── repository
+├── entity
+├── dto
+├── config
+├── security
+└── util
+
+Prerequisites
+
+Before running the project, install:
+
+Java 17+
+Maven
+PostgreSQL
+
+
+Database Configuration
+
+Update the application.properties file:
+spring.datasource.url=jdbc:postgresql://localhost:5432/your_db_name
+spring.datasource.username=your_username
+spring.datasource.password=your_password
+
+
+
+Maven Dependencies Included
+spring-boot-starter-web
+spring-boot-starter-data-jpa
+spring-boot-starter-security
+spring-boot-starter-validation
+spring-boot-starter-mail
+postgresql
+jjwt
+razorpay-java
+stripe-java
+lombok
+mapstruct
+modelmapper
+
+
+Features
+Authentication
+JWT Token Based Authentication
+Spring Security Integration
+Database
+PostgreSQL Integration
+Hibernate ORM
+Payment Integration
+Razorpay Payment Gateway
+Stripe Payment Gateway
+Email Service
+SMTP Email Support
+AI Support
+Gemini AI API Integration
